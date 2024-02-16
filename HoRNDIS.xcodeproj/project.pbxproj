@@ -301,11 +301,14 @@
 				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
 				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				CODE_SIGN_iakhiaev = "Mac Developer: mikhailai@gmail.com (74ZR97MLB5)";
 				CODE_SIGN_joshua = "Developer ID Application: Joshua Wise (54GTJ2AU36)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 9.3;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/HoRNDIS-Prefix.pch";
 				GCC_VERSION = "";
@@ -317,8 +320,9 @@
 				MODULE_VERSION = 9.3;
 				OTHER_LDFLAGS = "-lkmod";
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joshuawise.kexts.HoRNDIS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.kexts.HoRNDIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -329,11 +333,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				CODE_SIGN_iakhiaev = "Mac Developer: mikhailai@gmail.com (74ZR97MLB5)";
 				CODE_SIGN_joshua = "Developer ID Application: Joshua Wise (54GTJ2AU36)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 9.3;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/HoRNDIS-Prefix.pch";
 				GCC_VERSION = "";
@@ -345,8 +352,9 @@
 				MODULE_VERSION = 9.3;
 				OTHER_LDFLAGS = "-lkmod";
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joshuawise.kexts.HoRNDIS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yige.kexts.HoRNDIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
